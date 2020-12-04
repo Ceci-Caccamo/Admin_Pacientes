@@ -77,7 +77,7 @@ html {
   }
   .button.eliminar,
   .button.eliminar:hover {
-    background-color: #c10059;
+    background-color: #1565c0;
     color: white;
     margin-top: 2rem;
   }
@@ -85,6 +85,16 @@ html {
   .alerta-error {
     background-color: white;
     color: red;
+    padding: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:  'Staatliches', cursive;
+  } 
+
+  .footer {
+    background-color: white;
+    color: #1565c0;
     padding: 1rem;
     font-size: 2rem;
     text-transform: uppercase;
