@@ -36,14 +36,9 @@ function App() {
   };
 
   //Mensaje condicional
-  const titulo = citas.length === 0 ? "No hay Citas" : "Administra tus Citas";
+  const titulo = citas.length === 0 ? "No hay Citas" : "Gestioná tus Citas";
   return (
     <Fragment>
-      <img
-        src="https://ar.pinterest.com/pin/855965472909782881/?autologin=true"
-        alt="Logo"
-      ></img>
-
       <h1>Administrador citas</h1>
       <div className="container">
         <div className="row">

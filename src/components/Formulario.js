@@ -59,7 +59,7 @@ const Formulario = ({ crearCita }) => {
 
   return (
     <Fragment>
-      <h2>Crear Cita</h2>
+      <h2>Ingresar Datos</h2>
       {/* en el return no se utiliza un if, solo con ternario */}
       {error ? (
         <p className="alerta-error">Todos los campos son obligatorios</p>
@@ -70,7 +70,7 @@ const Formulario = ({ crearCita }) => {
           type="text"
           name="mascota"
           className="u-full-width"
-          placeholder="Nombre Mascota"
+          placeholder="Nombre del paciente"
           value={mascota}
           onChange={actualizarState}
         />
@@ -79,11 +79,11 @@ const Formulario = ({ crearCita }) => {
           type="text"
           name="propietario"
           className="u-full-width"
-          placeholder="Nombre Dueños Mascota"
+          placeholder="Ingresa nombre de dueño"
           value={propietario}
           onChange={actualizarState}
         />
-        <label> Fecha de Alta</label>
+        <label> Fecha de Cita</label>
         <input
           type="date"
           name="fecha"
