@@ -20,7 +20,7 @@ Puede necesitar primero npm install.
 ## Imagenes
 
 ### Vista de Inicio
-![Alt text](./asset/portada.png?raw=true "Portada")
+![Alt text](./asset/Portada.png?raw=true "Portada")
 
 ### Vista de Citas
 ![Alt text](./asset/Citas.png?raw=true "Citas")
